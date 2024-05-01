@@ -1,0 +1,238 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  overflow-x: hidden; 
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+
+.left-side {
+  width: 100%;
+  padding: 20px; 
+}
+
+.logo {
+  width: calc(
+    100% - 0px
+  ); 
+  height: auto; 
+}
+
+
+.separator {
+  border-radius: 4px;
+  width: calc(100% - 40px); 
+  border-top: 2px solid #fff; 
+  border-top-color: #fff;
+}
+
+.library-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.library-heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.add-button {
+  background-color: #f00;
+  color: white;
+  border: none;
+  padding: 10px 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 43px;
+}
+
+.add-button:hover {
+  background-color: #ff5050;
+}
+.custom-music-note {
+  width: 240px;
+  background-color: #333; 
+  padding: 10px; 
+  border-radius: 5px; 
+  margin-top: 10px;
+}
+
+
+.search-bar {
+flex-grow: 1;
+margin-right: 10px;
+padding: 5px 10px;
+border: 1px solid #fff; /* White border */
+border-radius: 15px;
+font-size: 14px;
+background-color: #333; /* Dark background */
+color: #fff; /* White text color */
+}
+.right-side {
+  border-left: 2px solid #555;
+  width: 80%;
+  background-color: #000;
+  padding: 20px; 
+  position: relative; 
+}
+nav {
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  border-radius: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 10px; /* Adjust margin for spacing */
+}
+.button:hover {
+  background-color: #d81313;
+}
+.playlist-list {
+  display: flex;
+  overflow-x: hidden;
+  margin-top: 20px; 
+  scroll-behavior: smooth;
+}
+.playlist-card {
+  flex: 0 0 auto;
+  width: 150px; /* Reduced width for smaller cards */
+  background-color: #777777;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  overflow: hidden;
+  height: 280px;
+  position: relative;
+}
+.playlist-card:hover .playlist-play-button {
+  opacity: 1; /* Show play button on hover */
+}
+.playlist-play-button:hover {
+  cursor: pointer;
+  background-color: #d81313;
+}
+.playlist-image {
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 5px 5px 0 0;
+}
+.playlist-info {
+  padding: 20px;
+}
+.playlist-name {
+  font-size: 14px; 
+  font-weight: bold;
+  margin-bottom: 5px; 
+  color: #000;
+}
+.playlist-description {
+  font-size: 12px;
+  color: #000;
+}
+.playlist-play-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 8px; 
+  border-radius: 50%;
+  font-size: 23px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.side-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px; /* Added top margin */
+}
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 3; /* Ensure buttons are above playlist cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-button-left {
+  left: 10px;
+}
+.scroll-button-right {
+  right: 10px;
+}
+.genres .playlist-list {
+  overflow-x: scroll; 
+  margin-top: 10px;
+}
+.genres .scroll-button-left,
+.genres .scroll-button-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+/* Signup CSS */
+
+
+
+

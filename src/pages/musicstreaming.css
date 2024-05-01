@@ -1,0 +1,9 @@
+.playlist{
+    display: flex;
+}
+
+.playlist img{
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
