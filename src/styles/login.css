@@ -1,0 +1,119 @@
+.loginimg{
+    transform: rotate(90deg);
+   height: 350px;
+   width: auto;
+   margin-top: 80px;
+}
+
+.dffdddf{
+    display: flex;
+    justify-content: center;
+
+}
+
+.google_btn img{
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.google_btn{
+    width: 50%;
+}
+
+.auth__formo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gogbtn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google_btn{
+    background: rgba( 255, 255, 255, 0.25 ) !important;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px;
+    border: 1px solid #000;
+    justify-content: space-around;
+    color: #000 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.google_btn:hover{
+    border: 1px solid #F582AE;
+}
+
+.form__group input{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 60%;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border: 1px solid #000;
+    border-radius: 999px;
+}
+
+.form__group input:focus{
+    border: 1px solid #000;
+    outline: none;
+}
+
+.button_ok{
+    background: rgba( 255, 255, 255, 0.25 ) !important;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.OR{
+    margin: 30px 0px;
+}
+
+.auth__btn{
+    background-color: #B82727;
+    padding: 10px 30px;
+    border-radius: 999px;
+    border: navy;
+    color: #fff;
+    margin-top: 30px;
+    transition: 0.4s;
+    border: 1px solid #B82727;
+    margin-bottom: 20px;
+}
+
+.auth__btn:hover{
+    color: #B82727;
+    background-color: #fff;
+}
+
+.m-auto{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    padding-top: 50px;
+}

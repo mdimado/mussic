@@ -1,0 +1,94 @@
+/* cart.css */
+
+.fav-items {
+  margin-top: 20px;
+}
+
+.audioplayer{
+  width: 80%;
+}
+
+.favorites {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.fav-item {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.fav-item-image img {
+  width: 100%;
+  height: auto;
+}
+
+.fav-item-title {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.fav-item-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.fav-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 10px;
+}
+
+.fav-item-price {
+  font-weight: bold;
+}
+
+.fav-item-actions {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.fav-item-actions i {
+  cursor: pointer;
+  margin-left: 5px;
+  border: 1px solid #ff0000;
+  padding: 0px 5px;
+  border-radius: 999px;
+  color: #ff0000;
+}
+
+/* Modal Styles */
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+  justify-content: space-between;
+}
+
+.btn-move-to-fav-cancel {
+  margin-right: 10px;
+}
+
+
+.fav-item-actions{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+}

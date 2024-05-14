@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+  }
+  
+  .headerrr {
+    width: 15%;
+    background-color: #B82727;
+  }
+  
+  .fixed {
+    position: fixed;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .layout {
+    width: 85%;
+    background: #171717;
+    border-top-left-radius: 30px;
+    min-height: 100vh;
+    overflow-y: auto; /* Make the .layout div scrollable vertically */
+    margin-bottom: 70px;
+  }
+
+  .black{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background: #171717;
+  }
+
+  

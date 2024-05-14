@@ -1,0 +1,242 @@
+
+.product__item{
+    cursor: pointer;
+    margin-top: 30px;
+    
+
+}
+
+
+
+img{
+  border-radius: 15px !important;
+}
+
+
+
+.product__info h3{
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.product__info a:hover{
+    color: inherit;
+}
+
+.product__info span{
+    font-size: 0.9rem;
+    color: black;
+
+}
+
+.product__card-bottom .price{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.product__card-bottom span i {
+    font-style: 1.2rem;
+    padding: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+}
+
+
+/* product-card.css */
+
+.product__item {
+  position: relative; /* Ensure relative positioning for absolute child elements */
+}
+
+.recipe__img {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play__button {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+  opacity: 0; /* Initially hide the button */
+}
+
+.play__button i {
+  color: rgb(243, 88, 88);
+  font-size: 2.5rem;
+  border: 2px solid #fff;
+  border-radius: 9999px;
+}
+
+/* Show play button when hovered over the image or when audio is playing */
+.recipe__img:hover .play__button,
+.play__button.play {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.product__img {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 400px;
+  }
+
+  .product__img img{
+    max-height: 300px;
+    border-radius: 120px;
+  }
+  
+  .discount__circle {
+    position: absolute;
+    top: 10px; /* Adjust the positioning based on your design */
+    right: 30px; /* Adjust the positioning based on your design */
+    width: 40px;
+    height: 40px;
+    background-color: #e74c3c; /* Set the background color of the circle */
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .discount__percentage {
+    font-size: 10px;
+    font-weight: bold;
+    color: white; /* Set the font color */
+  }
+
+
+
+  .flexend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .flexend p{
+    margin-left: 10px;
+  }
+  
+  .product__name{
+    height: 20px;
+  }
+
+  .h_a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff1e00;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 9999px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s;
+    border: 1px solid #ff1e00;
+  }
+
+  .categories{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .categories p{
+    background-color: #f582ae80;
+    padding: 3px 10px;
+    border: 1px solid #F582AE;
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    width: fit-content;
+  }
+
+
+  .h_a:hover{
+    color: #fe5f4a;
+    background-color: #fff;
+    
+  }
+  
+  .stars{
+    color: #fdc50d;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .last{
+    display: flex;
+    align-items: center;
+  }
+
+ 
+
+  .vegetarian{
+    display: flex;
+    color: rgb(45, 159, 45);
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid rgb(45, 159, 45);
+    border-radius: 999px;
+    padding: 5px 5px;
+  }
+
+  .vegetarian p{
+    margin-left: 5px;
+  }
+ 
+
+@media only screen and (max-width:992px){
+    .product__info h3 a {
+        font-size: 1.1rem;
+    }
+    .grey{
+        border-radius: 20px;
+        margin: 5px;
+      }
+
+    
+}
+
+@media only screen and (max-width:768px){
+    .product__info h3 a {
+        font-size: 1rem;
+    }
+
+    .product__card-bottom span i {
+        font-size: 1rem;
+    }
+
+    .grey{
+      margin: 60px 0px;
+    }
+}

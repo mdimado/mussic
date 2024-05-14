@@ -1,0 +1,133 @@
+.island{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  padding-top: 30px;
+  text-align: left;
+  padding-bottom: 30px;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.image img{
+  border-radius: 20px;
+  width: 100%;
+
+}
+
+.padddd{
+  padding: 0 100px 0 60px;
+}
+
+.context h1{
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.context h3{
+  background-color: #f582ae80;
+  margin-left: 10px;
+  padding: 3px 10px;
+  border: 1px solid #F582AE;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.context p{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.categories{
+  display: flex;
+}
+
+.island p{
+  width: 80%;
+  text-align: left;
+  margin: 8px ;
+}
+
+.island h4, h5{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.ollo{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.rate-recipe{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+
+}
+
+.context i{
+  color: #fdc50d;
+  font-size: 20px;
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+}
+
+.rate-recipe i{
+  font-size: 30px;
+  color: #fdc50d;
+}
+
+.fullload{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.islanno{
+  background-color: transparent !important;
+  border: none;
+}
+
+.loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #B82727;
+  --_m: 
+    conic-gradient(#0000 10%,#000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  -webkit-mask-composite: source-out;
+          mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {to{transform: rotate(1turn)}}
+
+@media only screen and (max-width:768px){
+  .padddd{
+    padding: 0 30px 0 30px;
+  }
+
+  .context h3{
+    margin-top: 0px;
+  }
+
+  .context h1{
+    margin-bottom: 30px;
+  }
+}
