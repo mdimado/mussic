@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/home.css";
 import { Container, Row, Col } from "reactstrap";
-import ProductsList from "../components/UI/ProductsList";
+import ProductsList from "../components/UI/SongList";
 import useGetData from "../custom-hooks/useGetData";
 import hero from "../assets/images/hero.png";
 import { useNavigate } from "react-router-dom";

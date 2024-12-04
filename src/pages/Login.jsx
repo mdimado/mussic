@@ -7,7 +7,7 @@ import { auth, provider } from "../firebase.config";
 import { toast } from 'react-toastify';
 import '../styles/login.css';
 import googleimg from '../assets/images/google.png'
-import imag from "../assets/images/login.png" 
+
 
 const Login = () => {
   useEffect(() => {

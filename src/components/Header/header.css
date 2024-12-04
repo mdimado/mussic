@@ -59,6 +59,7 @@
 
 .nav__item{
     margin: 10px 0px;
+    text-align: left !important;
 }
 
 .auth-links{
@@ -70,7 +71,7 @@
 .auth-links a{
     background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-
+    color: #fff !important;
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 text-decoration: none;
@@ -79,10 +80,28 @@ margin-top: 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
+transition: 0.5s;
 }
 
+
+
 .auth-links a:hover{
-    color: #000;
+    background: transparent;
+}
+
+.menu a{
+    transition: 0.5s;
+    width: 90%;
+    text-align: left !important;
+    
+}
+
+.menu a:hover{
+    padding: 8px 12px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .nav__icons{

@@ -1,13 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import { NavLink, useNavigate, Link } from "react-router-dom";
 import { Container, Row } from "reactstrap";
-import { useSelector } from "react-redux";
 import { motion } from 'framer-motion';
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase.config";
 import { toast } from "react-toastify";
 import useAuth from '../../custom-hooks/useAuth';
-import logo from "../../assets/images/eco-logo.png";
 import userIcon from '../../assets/images/account-circle-line.png';
 import './header.css';
 
@@ -35,8 +33,6 @@ const Header = () => {
   const profileActionRef = useRef(null);
   const navigate = useNavigate();
   const { currentUser } = useAuth();
-  const totalQuantity = useSelector(state => state.cart.totalQuantity);
-  const totalFav = useSelector(state => state.fav.totalQuantity);
 
   const stickyHeaderFunc = () => {
     window.addEventListener('scroll', () => {
@@ -68,7 +64,6 @@ const Header = () => {
   const firstName = currentUser && currentUser.displayName ? currentUser.displayName.split(' ')[0] : 'Guest';
 
   const menuToggle = () => menuRef.current.classList.toggle('active__menu');
-  const navigateToCart = () => navigate('/cart');
   const navigateToFav = () => navigate('/fav');
   const navigateToUpload = () => navigate('/upload');
   const toggleProfileActions = () => profileActionRef.current.classList.toggle('show__profileActions');

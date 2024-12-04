@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Table, Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Label, Input, Form } from 'reactstrap';
+import { Container, Table, Button, Modal, ModalHeader, ModalBody, FormGroup, Label, Input, Form } from 'reactstrap';
 import { db, storage } from '../firebase.config';
 import { collection, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
 import { ref, deleteObject } from 'firebase/storage';
+import "../styles/admin.css"
 
 const AdminSongsPanel = () => {
   const [songs, setSongs] = useState([]);
@@ -119,8 +120,8 @@ const AdminSongsPanel = () => {
           {loading ? (
             <p>Loading songs...</p>
           ) : (
-            <Table striped>
-              <thead>
+            <Table className='Table'>
+              <thead className='Table'>
                 <tr>
                   <th>Cover</th>
                   <th>Title</th>

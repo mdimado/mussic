@@ -15,6 +15,12 @@
   --real-col: #F582AE;
 }
 
+.Table{
+  background-color: #0a1d37 !important;
+  background: #0a1d37 !important;
+  color: #0a1d37 !important;
+}
+
 /* reset browser default */
 * {
   margin: 0;

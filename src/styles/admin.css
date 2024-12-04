@@ -1,0 +1,7 @@
+.Table{
+    --bs-table-bg: black !important;
+}
+
+tr:hover{
+    --bs-table-bg: rgb(41, 41, 41) !important;
+}

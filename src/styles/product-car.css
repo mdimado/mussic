@@ -19,7 +19,15 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     height:fit-content;
     padding-bottom: 30px;
     padding: 10px;
+    transition: 0.5s;
 }
+
+.grey:hover{
+  background: rgba(201, 201, 201, 0.25);
+  border: 0.6px solid #fff;
+}
+
+
 
 
 

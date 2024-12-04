@@ -20,16 +20,22 @@
     background: #171717;
     border-top-left-radius: 30px;
     min-height: 100vh;
-    overflow-y: auto; /* Make the .layout div scrollable vertically */
+     /* Make the .layout div scrollable vertically */
     margin-bottom: 70px;
+    position: relative;
+  }
+
+  .scrollable{
+    overflow-y: auto;
   }
 
   .black{
-    height: 70px;
+    height: 570px;
     width: 100%;
     position: fixed;
     bottom: 0px;
     background: #171717;
+    z-index: -99;
   }
 
   
